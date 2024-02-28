@@ -1,0 +1,90 @@
+*{
+   border: 0;
+}
+
+body{
+   background-image:linear-gradient(#82AAE3,#91D8E4,#EAFDFC);
+}
+.main{
+   margin-left: 185px;
+  width: 75%;
+  height: 100vh;  
+  box-sizing: border-box;
+  text-align: center;
+  padding: 0;
+  border: 0;
+ 
+}
+.main h1 {
+   padding-top: 25px;
+}
+.nav{
+   display: flex;
+   justify-content: center;
+   padding: 20px 0 0 0;
+}
+
+.nav input{
+   height: 60px ;
+   width: 400px;
+   border-radius: 20px;
+   font-size: 20px;
+   padding: 0;
+   border: 1px;
+   text-align: center;
+   font-weight: 500;
+}
+
+.nav button {
+   height: 60px;
+   border-radius: 20px;
+   width : 60px ;
+   border: 1px;
+   cursor: pointer;
+}
+
+.temp{
+   display: inline;
+   font-size: 18px;
+}
+
+.humidity{
+   display: inline;
+   font-size: 18px;
+}
+
+.cloud img{
+   width: 125px;
+   height: 110px;
+}
+
+.temp img{
+   height: 100px;
+   width: 100px;
+}
+
+.humidity img{
+   height: 100px;
+   width: 100px;
+}
+
+.details{
+   display: flex;
+   justify-content: space-around;
+}
+
+.cloud{
+   font-size: 30px;
+   
+}
+
+h2{
+   font-size: 40px;
+}
+.body{
+   display: none;
+}
+.wrongcityname{
+   display: none;
+}
+/*rgb(29, 193, 182),, rgb(36, 143, 197)*/
